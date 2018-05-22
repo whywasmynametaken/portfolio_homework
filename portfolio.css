@@ -1,0 +1,86 @@
+/* WEBSITE COLOR */
+* {
+  background-color: #e2e2e2;
+}
+
+
+/* TOP PART OF WEBSITE */
+#banner {
+  max-width: 100%;
+}
+
+.top {
+  /* width: 1000px; */
+  position:absolute;
+  left:0;
+  right:0;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  color: white;
+  /* border: 3px solid black */
+}
+
+.andrew-borell {
+  background-color: transparent;
+  font-size: 300%;
+  font-weight: bold;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+
+.portfolio-maker {
+  background-color: transparent;
+  width: 700px;
+  font-size: 200%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -160%);
+}
+
+/* PIC IN THE MIDDLE */
+#my-face {
+  height: 250px;
+  width: 250px
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  left: 100%;
+  transform: translate(0%, -25%);
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+/* BIOGRAPHY */
+
+.bio {
+  text-align: center;
+  /* border: 3px solid black */
+
+}
+
+div.bio h1 {
+    color: #81d9e2;
+}
+
+div.bio p {
+  font-size: 80%;
+  color: #b2b2b2;
+}
+
+/* PROJECT IMAGES */
+.slideshow {
+  display: inline-flex;
+  height: 500px;
+  width: 500px;
+  /* border: 3px solid black */
+
+}
+
+.my-slides {
+  max-height: 50%;
+  max-width: 50%;
+}
